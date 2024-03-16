@@ -1,0 +1,7 @@
+#about,
+#projects,
+#skills,
+#contact {
+    padding-top: 10vh;
+    /* Adjust the value to match the height of your fixed navbar */
+}

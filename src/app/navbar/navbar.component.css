@@ -1,0 +1,30 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Ensure the navbar is on top of other content */
+    background-color: #fff;
+    /* Add background color if needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add shadow for visual separation */
+}
+
+.nav-item .nav-link {
+    color: #333;
+    /* Default color */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+
+/* .nav-item.active .nav-link {
+    color: #007bff;
+    /* Change color to indicate active link */
+/* font-weight: bold; */
+/* Apply bold font weight to active link*/
+
+
+.nav-link:hover {
+    font-weight: bold;
+}

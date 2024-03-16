@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+    max-width: 950px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
