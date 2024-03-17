@@ -5,9 +5,12 @@
 
 html,
 body {
+    background-color: #f7f7f7;
     scroll-behavior: smooth;
-    background-image: url('./assets/leone-venter-VieM9BdZKFo-unsplash.jpg');
+    background-image: url('./assets/5671773.jpg');
+
     background-size: contain;
+
 
 }
 
@@ -59,4 +62,24 @@ a {
 
 h2 {
     color: #333;
+}
+
+h3 {
+    color: rgb(93, 3, 3);
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        margin-top: 0;
+        margin-bottom: 2vh;
+    }
+
+    .section {
+        padding-top: 0vh;
+        padding-bottom: 0h;
+    }
+
 }

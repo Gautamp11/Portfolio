@@ -11,7 +11,6 @@
 .contact-link {
     display: flex;
     align-items: center;
-    margin-left: 100px;
     margin-bottom: 24px;
 
 }
@@ -28,4 +27,17 @@
 .contact-link h4:hover {
     color: black;
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-methods {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .container {
+        margin-bottom: 3vh;
+    }
+
 }
