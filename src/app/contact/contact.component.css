@@ -1,3 +1,31 @@
 .container {
     margin-bottom: 30vh;
 }
+
+.contact-link .fab,
+.contact-link .fas {
+    font-size: 24px;
+    /* Adjust the size as needed */
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 24px;
+
+}
+
+.contact-link i {
+    margin-right: 10px;
+}
+
+
+.contact-link h4 {
+    color: #333;
+}
+
+.contact-link h4:hover {
+    color: black;
+    font-weight: bold;
+}

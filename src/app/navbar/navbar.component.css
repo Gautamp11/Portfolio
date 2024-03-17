@@ -18,12 +18,11 @@
 }
 
 
-/* .nav-item.active .nav-link {
-    color: #007bff;
-    /* Change color to indicate active link */
-/* font-weight: bold; */
-/* Apply bold font weight to active link*/
+.nav-link.active {
+    color: black;
+    font-weight: bold;
 
+}
 
 .nav-link:hover {
     font-weight: bold;

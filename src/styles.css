@@ -1,10 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
 
 html,
 body {
     scroll-behavior: smooth;
+    background-image: url('./assets/leone-venter-VieM9BdZKFo-unsplash.jpg');
+    background-size: contain;
+
 }
 
 .container {
@@ -17,8 +21,21 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #333;
+.btn {
+    background: #000;
+    background-color: rgb(93, 3, 3);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+    background-color: black;
+    color: white;
+}
+
+h5 {
+    color: #009688;
+
 }
 
 p {
@@ -33,4 +50,13 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+h2 {
+    color: #333;
 }
