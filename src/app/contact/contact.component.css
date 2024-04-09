@@ -1,43 +1,47 @@
 .container {
-    margin-bottom: 30vh;
+  margin-bottom: 20vh;
 }
 
 .contact-link .fab,
 .contact-link .fas {
-    font-size: 24px;
-    /* Adjust the size as needed */
+  font-size: 1.6rem;
+  color: rgb(93, 3, 3);
 }
-
+.contact-methods {
+  padding-left: 10vw;
+}
 .contact-link {
-    display: flex;
-    align-items: center;
-    margin-bottom: 24px;
-
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 10px;
 }
 
 .contact-link i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-
 .contact-link h4 {
-    color: #333;
+  color: #333;
 }
 
 .contact-link h4:hover {
-    color: black;
-    font-weight: bold;
+  color: rgb(93, 3, 3);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
-    .contact-methods {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+  .contact-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  h4 {
+    display: none;
+  }
 
-    .container {
-        margin-bottom: 3vh;
-    }
-
+  .container {
+    margin-bottom: 3vh;
+  }
 }

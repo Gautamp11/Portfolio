@@ -1,28 +1,21 @@
 .nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    /* Ensure the navbar is on top of other content */
-    background-color: #fff;
-    /* Add background color if needed */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Add shadow for visual separation */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 30px;
 }
 
 .nav-item .nav-link {
-    color: rgb(93, 3, 3);
-    /* Default color */
-    transition: color 0.3s ease;
-    /* Smooth transition for color change */
+  color: rgb(93, 3, 3);
+  transition: all 0.3s ease;
 }
-
 
 .nav-link.active {
-    font-weight: bold;
-
+  font-weight: 700;
 }
-
 .nav-link:hover {
-    font-weight: bold;
+  transform: translateY(-2px);
 }
