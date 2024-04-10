@@ -3,8 +3,6 @@
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   gap: 30px;
 }
 
@@ -14,8 +12,12 @@
 }
 
 .nav-link.active {
-  font-weight: 700;
+  background: linear-gradient(to right, rgb(93, 3, 3), rgb(135, 51, 51));
+  border-radius: 15px;
+  color: white !important;
 }
 .nav-link:hover {
-  transform: translateY(-2px);
+  background-color: rgba(93, 3, 3, 0.8);
+  border-radius: 15px;
+  color: white !important;
 }
