@@ -4,8 +4,6 @@
   width: 100%;
   z-index: 1000;
   gap: 30px;
-  background-image: url(/src/assets/5671773.jpg);
-  background-position: center;
 }
 
 .nav-item .nav-link {
