@@ -1,14 +1,39 @@
-<ul class="nav justify-content-center">
-  <li class="nav-item" routerLinkActive="active">
-    <a class="nav-link active" routerLink="/" fragment="about">About</a>
-  </li>
-  <li class="nav-item" routerLinkActive="active">
-    <a class="nav-link" routerLink="/" fragment="projects">Projects</a>
-  </li>
-  <li class="nav-item" routerLinkActive="active">
-    <a class="nav-link" routerLink="/" fragment="skills">Skills</a>
-  </li>
-  <li class="nav-item" routerLinkActive="active">
-    <a class="nav-link" routerLink="/" fragment="contact">Contact</a>
-  </li>
-</ul>
+<nav>
+  <div class="menu" (click)="toggleNav()">
+    <i class="fas fa-bars"></i>
+  </div>
+  <ul class="nav justify-content-center">
+    <li class="nav-item" routerLinkActive="active">
+      <a
+        class="nav-link active"
+        routerLink="/"
+        fragment="about"
+        (click)="toggleNav()"
+        >About</a
+      >
+    </li>
+    <li class="nav-item" routerLinkActive="active">
+      <a
+        class="nav-link"
+        routerLink="/"
+        fragment="projects"
+        (click)="toggleNav()"
+        >Projects</a
+      >
+    </li>
+    <li class="nav-item" routerLinkActive="active">
+      <a class="nav-link" routerLink="/" fragment="skills" (click)="toggleNav()"
+        >Skills</a
+      >
+    </li>
+    <li class="nav-item" routerLinkActive="active">
+      <a
+        class="nav-link"
+        routerLink="/"
+        fragment="contact"
+        (click)="toggleNav()"
+        >Contact</a
+      >
+    </li>
+  </ul>
+</nav>
